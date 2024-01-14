@@ -1,2 +1,2 @@
 #!/bin/bash
-"printenv PATH +x"
+printenv PATH +x

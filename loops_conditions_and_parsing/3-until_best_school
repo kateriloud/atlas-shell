@@ -2,7 +2,7 @@
 #This script is printing "Best School" 10 times until loops
 
 counter=1
-until [ $counter -gt 10]
+until [ $counter -gt 10 ]
 do
 	echo "Best School"
 	((counter++))

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-#This script is printing "Best School" 10 times
+#This script is printing "Best School" 10 times until loops
 
-number=1
-until [ $number -le 10]
+counter=1
+until [ $counter -gt 10]
 do
 	echo "Best School"
-	number=$(( number+1 ))
+	((counter++))
 done

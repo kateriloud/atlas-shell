@@ -9,14 +9,12 @@ do
 		1) echo "1";;
 		2) echo "2";;
 		3) echo "3";;
-		4) echo "4";;
-		4) echo "Bad luck from China";;
+		4) echo "4" "bad luck from China";;
 		5) echo "5";;
 		6) echo "6";;
 		7) echo "7";;
 		8) echo "8";;
-		9) echo "9";;
-		9) echo "Bad luck from Japan";;
+		9) echo "9"  "bad luck for Japan";;
 		10) echo "10";;
 		11) echo "11";;
 		12) echo "12";;
@@ -24,8 +22,7 @@ do
 		14) echo "14";;
 		15) echo "15";;
 		16) echo "16";;
-		17) echo "17";;
-		17) echo "Bad luck from Italy";;
+		17) echo "17" "bad luck from Italy";;
 		18) echo "18";;
 		19) echo "19";;
 		20) echo "20";;

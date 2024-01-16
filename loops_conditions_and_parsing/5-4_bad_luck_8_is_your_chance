@@ -3,15 +3,16 @@
 
 n=1
 
-while [ $n -le 10 ]; do
-if [ $n -eq 4 ]; then
+while [ $n -le 9 ]; do
+if [ $n -eq 3 ]; then
 	echo "Best School"
 	echo "bad luck"
-elif [ $n -eq 8 ]; then
+elif [ $n -eq 7 ]; then
 	echo "Best School"
 	echo "good luck"
 else
 	echo "Best School"
+
 fi
 ((n++))
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Script prints contents of cd in list form with part of name first dash
 
-for file in . *
+for file in .
 do
 	base=$(basename "$file")
 	after_dash=${base#-}

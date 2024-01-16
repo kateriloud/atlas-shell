@@ -1,4 +1,4 @@
-#!/usr/bin/end/bash
+#!/usr/bin/env bash
 #This script is printing "Best School" 10 times
 
 number=1

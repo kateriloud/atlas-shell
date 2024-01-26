@@ -16,6 +16,5 @@ do
 		17)
 			echo "bad luck from Italy"
 			;;
-	x=$((x+1))
 	esac
 done

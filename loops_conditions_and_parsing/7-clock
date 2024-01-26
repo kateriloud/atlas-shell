@@ -5,12 +5,11 @@ hours=0
 minutes=1
 
 while [ $hours -le  12 ]; do
+	printf "%d"
 	while [ $minutes -le 59 ]; do
-		printf "%d:%d\n" $hours $minutes
-		((minutes++))
+		printf "%d"
 		if [ $minutes -eq 60 ]; then
-			minutes=0
-			((hours++))
+			printf "Hour: %d"
 		fi
 	done
 done | head -n 70

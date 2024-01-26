@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 #This displays time hours and minutes
 
-hours=0
+hour=0
 
-while [ $hours -le  12 ]; do
-		echo hour: $hours
+while [ $hour -le  12 ]; do
+		echo hour: $hour
 	minute=1
 
-	while [ $minutes -le 59 ]; do
-		printf "$minutes"
-		((minutes++))
+	while [ $minute -le 59 ]; do
+		printf "$minute"
+		((minute++))
 	done
-		((hours++))
+		((hour++))
 done

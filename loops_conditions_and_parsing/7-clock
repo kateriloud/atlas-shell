@@ -4,10 +4,10 @@
 
 
 while [ $hours -le  12 ]; do
-	printf "$hours: minutes "
+	echo hour: $hours
 
 while [ $minutes -le 59 ]; do
-		printf "$minutes: minutes "
+		printf "$minutes : minutes "
 		((minutes++))
 	done
 		((hours++))

@@ -7,14 +7,15 @@ while [ $x -le 20 ]
 do
 	echo $n
 	case $n in
-		4)
+		Number 4)
 			echo "bad luck from China"
 			;;
-		9)
+		Number 9)
 			echo "bad luck from Japan"
 			;;
-		17)
+		Number 17)
 			echo "bad luck from Italy"
 			;;
 	esac
+	x=$((x+1))
 done

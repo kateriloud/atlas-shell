@@ -8,8 +8,10 @@ while [ $hours -le  12 ]; do
 	printf "%d"
 	while [ $minutes -le 59 ]; do
 		printf "%d"
+		((minutes++))
 		if [ $minutes -eq 60 ]; then
 			printf "Hour: %d"
+			((hours++))
 		fi
 	done
 done | head -n 70

@@ -1,17 +1,14 @@
 #!/usr/bin/env bash
 #This displays time hours and minutes
 
-hours=0
-minutes=1
+
 
 while [ $hours -le  12 ]; do
-	printf "%d"
-	while [ $minutes -le 59 ]; do
-		printf "%d"
+	printf "$hours: minutes "
+
+while [ $minutes -le 59 ]; do
+		printf "$minutes: minutes "
 		((minutes++))
-		if [ $minutes -eq 60 ]; then
-			printf "Hour: %d"
-			((hours++))
-		fi
 	done
-done | head -n 70
+		((hours++))
+done

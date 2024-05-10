@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 770 olleh hello
+chmod 753 olleh hello

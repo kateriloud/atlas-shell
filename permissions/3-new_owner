@@ -1,2 +1,2 @@
 #!/bin/bash
-chown hello www-data
+chown hello:www-data

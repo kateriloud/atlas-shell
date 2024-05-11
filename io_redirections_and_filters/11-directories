@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type dA,wc
+find -type d -A,wc

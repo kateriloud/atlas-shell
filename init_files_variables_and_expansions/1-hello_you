@@ -1,2 +1,2 @@
 #!/bin/bash
-alias root=user | printf "hello user"
+echo "hello user" | 
